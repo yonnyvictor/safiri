@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todays_navigation_menu_item"
+        android:icon="@drawable/ic_list"
+        android:title="@string/todays_title" />
+
+    <item
+        android:id="@+id/search_navigation_menu_item"
+        android:icon="@drawable/ic_list"
+        android:title="@string/search_bookings_title" />
+
+    <item
+        android:id="@+id/bookings_navigation_menu_item"
+        android:icon="@drawable/ic_list"
+        android:title="@string/my_bookings_title" />
+
+    <item
+        android:id="@+id/organizations_navigation_menu_item"
+        android:icon="@drawable/ic_list"
+        android:title="@string/organizations_title" />
+</menu>

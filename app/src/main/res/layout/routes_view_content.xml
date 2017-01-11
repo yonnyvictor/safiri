@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/routesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/routes_list_view"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"
+            android:fastScrollEnabled="true"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/empty_route_element"
+            android:text="@string/empty_travel_routes_text"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/darker_gray"/>
+
+    </RelativeLayout>
+</merge>

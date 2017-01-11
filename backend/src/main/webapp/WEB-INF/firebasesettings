@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "safiri-23ece",
+  "private_key_id": "9980a50277b81386e92d874d159f8a3d845434a8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzIfKjnd6w4FUX\nEMgMjYkplcY2TKY0Urr+FAKRNwMpXSm0Fbp187v3OMaghYSYMW7TiwXf7Z1ePN7l\nHtnVVRLMWTXMlAIvammdN+CcZMYEHc1yfEyg5bc87Z6N0JoIwimt8Rc8T246wuno\nAl2LzSwFPJewahMTKPshOi9AiYc1ePNb0PODDhkIHabX4A38cQ2EIsFxpEx4f+PD\nfI89i61uR9Aj/g+G2QbPZD1tYssgyrw0El/N0xiFTFBKsWmbyW1Imic2v8DjMfWO\nXWDAw4oZwIkekuLN+rYi5dVYEPBgyscGT+EQzYFBV5FkyPkhIhMXzoQUleeKkL9L\nLNLqOhXrAgMBAAECggEAQMQCZVO74zmIqkk/+wHlWKq1OoamBP7watKzRuub8gWk\nAV9lxiW0jSLy9bCwixI8XrHCEv9nSV46vJ5V5gLXRBjxEaFl1NzliJleVU0+Jtjb\nogv87KOBh77l96I3Pvlsdl5Xp0+UrBwy09afGd+5jb8lnPwNH31OpunRkcTnpNYW\nUROIRTi1B3wReqLu+55EvES8U78kFR95daSKkMBxf1WnXnKWADijA8lgFEOm8l4O\nQ5YmMAbv2/F2Wyzd0YMMyMc/oirRFs4MkCTmWaJ8hhFSLjaJV9YUDVcO7YEWvh6j\nxf3806uAmwEoLbssnqBEvPOmdHyA/UQ+NmfqG+tmsQKBgQDZLFfPORR4fKl4qx9m\neTwsxwZjQ+A0s4sjBCzBW2MVKM1GXuY0Rkxu2s25j48lpqoEk+ds+UmBXgv+lLp6\nM8OUArOT6N0UM15mXcyRMIXTCcVNiRkCHtn3ZZDuwfJKJj5IHtEHkMTTEeMi4N3c\nBoT5wbMAv4rk8rYKLf48JIcZaQKBgQDTKIyr7LRnRVXEgSCIaanLaqvkZCit/CA7\niz9WNGi5dq2k5caSx/3cHPKF7FQdNNeJAqm/EQcMHk1VsMl+Z0+rRYhyYUuZlCUo\nYIfAcWL/dC3V+kT0LmTjDBSgAkGmyctjAy2HtP3MP1FOV6EPO9vSp4hkGLFHLeLy\nGy6P0PkWMwKBgQCnYlYLkaMFeo/kQYBiKu8GVB/IQnh8JiYHRyB3p0gm9tvAcURc\n5hHjHyGQ8+UQz/QasyScCUduPl5gSaGwrlT/r1VZmxFKkI0huQoCnbOHhPBdYl20\nFLNKyy152GI2ZGN8ksPpYNtTE2ZNa6OUAjJbjb+5w+f5rlhAYFKjaEP4gQKBgFMi\nIdAGTzhhWdUVqYNLZmgJxUcUD9f/7YjD19nOpHRwPwku1bEwP8gLNYh4dN1S0pDE\nlaP9xjKFM5lLEulLL1iU9ZVirOr4InD1ID0p5vn/+ZPHBqLEKUAin3Qnr0VFKWf/\n9kr5fPqO6ynW4jgnLvKOtuoBtrn5XOJIxVolwgt1AoGBAMK7lYqcg93phRyjWLxj\nlRmVXDqQGRJOLWCuWjAaTtC9dkHml4vbfFfwN85TSAdssFhckBs6kLPYqApfnW+g\nlhkIRhod0i5M+ZHN5VTp/MgNU1aEpOjcjQuBenx1ufLdfMHbg9VvYXWSB+K/Kotl\nDGNmKVumF58ewgkQ2+GHJ99M\n-----END PRIVATE KEY-----\n",
+  "client_email": "safari-servlet@safiri-23ece.iam.gserviceaccount.com",
+  "client_id": "103015685142915809679",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/safari-servlet%40safiri-23ece.iam.gserviceaccount.com"
+}

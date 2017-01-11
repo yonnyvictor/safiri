@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:padding="16dp"
+                    android:layout_marginBottom="16dp">
+
+                    <TextView
+                        android:id="@+id/booking_detail_organization_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/organization_title"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_organization_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_route_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/route_title"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_route_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_origin_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/origin_title"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_origin_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_destination_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/destination_title"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_destination_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_departure_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/departure_time_title"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1" />
+
+                    <TextView
+                        android:id="@+id/booking_detail_departure_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_travel_date_label_textview"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_vertical"
+                        android:text="@string/travel_date_tile"
+                        android:layout_gravity="fill"
+                        android:layout_rowWeight="1"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/booking_detail_travel_date_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@android:color/black"
+                        android:layout_gravity="fill"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                </GridLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="0dp">
+
+                <TextView
+                    android:id="@+id/booking_details_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="@string/booking_details_title"
+                    android:padding="16dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <com.lighteye.safiri.utils.NonScrollListView
+                android:id="@+id/booking_details_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/empty_booking_detail_element"
+                android:text="No Bookings Available"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</merge>
